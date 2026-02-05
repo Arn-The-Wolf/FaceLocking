@@ -1,5 +1,7 @@
 # Face Locking System - Intelligent Vision Feature
 
+**Repository:** [https://github.com/raphael-nibishaka/FaceLocking](https://github.com/raphael-nibishaka/FaceLocking)
+
 This repository contains the implementation of a **Face Locking** system, developed as part of the Term-02 Week-04 assignment. The system extends a standard face recognition pipeline by adding persistent tracking, action detection, and automated history logging.
 
 ---
@@ -31,7 +33,7 @@ Every significant event is recorded in a dedicated history file for auditing and
 
 *   **Storage Location**: `data/history/`
 *   **Naming Convention**: `<face>_history_<timestamp>.txt`  
-    *Example: `gabi_history_20260129112099.txt`*
+    *Example: `raphael_history_20260129112099.txt`*
 *   **Log Format**: Each entry includes:
     *   `Timestamp`: Precise time of the event.
     *   `Action Type`: The nature of the detection (e.g., `eye_blink`, `lock_acquired`).
@@ -49,7 +51,7 @@ Every significant event is recorded in a dedicated history file for auditing and
 ### Running the System
 To lock onto a specific person:
 ```bash
-python face_lock.py --lock-name "Gabi"
+python face_lock.py --lock-name "Raphael"
 ```
 
 ### Key Commands
