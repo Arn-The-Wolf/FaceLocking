@@ -161,7 +161,7 @@ def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
 def main():
     from .haar_5pt import Haar5ptDetector, align_face_5pt
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     det = Haar5ptDetector(
         min_size=(70, 70),
         smooth_alpha=0.80,
